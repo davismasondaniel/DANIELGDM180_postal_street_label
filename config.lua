@@ -8,6 +8,9 @@ config = {
     updateDelay = 300,
 
     hud = {
+        -- Turn on or off the text display
+        display = true,
+
         -- NUI panel position (% from left / % from bottom)
         posX = 15.14,
         posY = 0.963,

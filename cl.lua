@@ -94,7 +94,7 @@ CreateThread(function()
             pBlip = nil
         end
 
-        local show = not config.hud.vehicleOnly or veh ~= 0
+        local show = config.hud.display and (not config.hud.vehicleOnly or veh ~= 0)
 
         SendNUIMessage({
             type = 'update',
